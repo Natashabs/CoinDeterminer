@@ -26,7 +26,8 @@ def execute(request):
     f.close
     list=""
     for line in read_data:
-        list = list + str(int(line)) + " -> " + str(CoinDeterminer(int(line))) + "<br/>"
+        if 1 <= int(line) <= 250:
+            list = list + str(int(line)) + " -> " + str(CoinDeterminer(int(line))) + "<br/>"
     return Response('The least number of coins for each input value is [value -> number of coins]: <br/> %s'%str(list))
     
 if __name__ == '__main__':
