@@ -27,10 +27,10 @@ Test Output:
     •You should provide sufficient evidence that your solution is complete by, as a minimum, indicating that it works correctly against the supplied test data
 
 #Contents
-    *`coin.py` - Algorithm to solve the problem.
-    *`coin_web.py` - Web code to upload the text file and show the result.
-    *`test.py` - Unit test
-    *`examples.txt` - Text file with some input examples tests.
+    * `coin.py` - Algorithm to solve the problem.
+    * `coin_web.py` - Web code to upload the text file and show the result.
+    * `test.py` - Unit test
+    * `examples.txt` - Text file with some input examples tests.
 
 #Run the project
 It's necessary the Python version 3.4.1 and the Pyramid to run the project.
